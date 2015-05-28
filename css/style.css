@@ -1,0 +1,788 @@
+/* Template Stylesheet */
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #f0f4f7;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: 2000px !important;
+    z-index: -3;
+    height: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 0;
+}
+
+.slider {
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.home header {
+    height: 512px;
+    float: left;
+    width: 100%;
+}
+.pages header {
+    height: 300px;
+    float: left;
+    width: 100%;
+}
+
+.pages section {
+    top: 312px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.home section {
+    top: 730px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.number {
+    left: 0;
+    z-index: 2;
+    line-height: 16px;
+}
+
+.spanTitle {
+    font-family: "PT Sans", "Helvitica", sans-serif;
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.callNumber {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shortlist {
+    margin-top: 20px;
+}
+
+.shortlist img {
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+.shortlist a {
+    height: 20px;
+    font-style: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+h1.search_header {
+    display: block;
+    background: url(../images/search_bg.png) no-repeat right center #262626;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    font-family: "PT Sans", Helvitica, sans-serif;
+    font-size: 28px;
+    width: 98%;
+    padding-left: 10px;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.search_body {
+    box-shadow: 1px 1px 2px #1e1e1e;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #2e9dd6 0%, #0171aa 77%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e9dd6), color-stop(77%, #0171aa));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #2e9dd6 0%, #0171aa 77%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #2e9dd6 0%, #0171aa 77%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #2e9dd6 0%, #0171aa 77%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #2e9dd6 0%, #0171aa 77%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2e9dd6', endColorstr='#0171aa', GradientType=0);
+    /* IE6-9 */
+    
+    height: 215px;
+    width: 100%;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+/* Vehicle by Shape Box */
+
+.shapeSelect {
+    background: #2d2d2d;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #2d2d2d 0%, #000000 59%, #131313 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d2d2d), color-stop(59%, #000000), color-stop(100%, #131313));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #2d2d2d 0%, #000000 59%, #131313 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #2d2d2d 0%, #000000 59%, #131313 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #2d2d2d 0%, #000000 59%, #131313 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #2d2d2d 0%, #000000 59%, #131313 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#131313', GradientType=0);
+    /* IE6-9 */
+    
+    height: 160px;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    margin-top: 36.6%;
+    padding: 5px;
+    text-align: left;
+}
+
+.shapeSelect ul li {
+    display: inline-block;
+    width: 16.4%;
+    text-align: center;
+}
+
+.shapeSelect ul {
+    width: 100%;
+}
+
+.shapeSelect ul li a {
+    font-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.shadow {
+    width: 100%;
+    background: url(../images/shadow.png) center bottom no-repeat;
+    height: 33px;
+    margin-top: -7px;
+    display: inline-block;
+}
+
+.panel {
+    box-shadow: 1px 1px 3px #9f9f9f;
+    padding: 10px;
+    background: #fff;
+}
+/* Vehicle Listing Module */
+.vehicleItem:hover {
+    background: #fdfdfd;
+}
+
+.car_image {
+    margin-right:5px;
+}
+
+.vehicleSpecsSummary ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.vehicleSpecsSummary li {
+    display: flex;
+    height: 26px;
+    line-height: 11px;
+    font-size: 10px;
+    padding:2px;
+}
+
+.vehicleSpecsSummary img {
+    margin-right: 6px;
+    width: 26px !important;
+    height: 26px !important;;
+}
+
+.vehicleTitle {
+    font-size: 140%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.vehicleVariant {
+    font-size: 80%;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.vehicleTitle a, .vehicleVariant a {
+    text-decoration: none;
+    color:#000;
+}
+.vehicleItem {
+    height: 160px;
+    margin-top:15px;
+}
+.vehicleCTA ul {
+    margin-bottom: 5px;
+}
+
+.vehicleCounter {
+    position: relative;
+    top:0;
+    left:0;
+    background:#2695cf;
+    padding:10px;
+    font-weight: bold;
+    color:#fff !important;
+    width: 10px;
+    height: 10px;
+    line-height: 12px;
+    z-index: 5;
+    margin:0 !important;
+}
+
+.onSpecial {
+    position: relative;
+    top:80px;
+    left:0;
+    background: #6d0019; /* Old browsers */
+    background: -moz-linear-gradient(left, #6d0019 3%, #ee2f24 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(3%,#6d0019), color-stop(100%,#ee2f24)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #6d0019 3%,#ee2f24 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #6d0019 3%,#ee2f24 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #6d0019 3%,#ee2f24 100%); /* IE10+ */
+    background: linear-gradient(to right, #6d0019 3%,#ee2f24 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d0019', endColorstr='#ee2f24',GradientType=1 ); /* IE6-9 */    padding:10px;
+    font-weight: bold;
+    color:#fff !important;
+    width: 10px;
+    height: 10px;
+    line-height: 12px;
+    z-index: 5;
+    width: 100px;
+    margin:0 !important;
+    font-size:90%;
+}
+.onPromotion {
+    position: relative;
+    top:80px;
+    left:0;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(left, #1e5799 0%, #2695cf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(100%,#2695cf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #1e5799 0%,#2695cf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #1e5799 0%,#2695cf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #1e5799 0%,#2695cf 100%); /* IE10+ */
+    background: linear-gradient(to right, #1e5799 0%,#2695cf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2695cf',GradientType=1 ); /* IE6-9 */
+    padding:10px;
+    font-weight: bold;
+    color:#fff !important;
+    width: 10px;
+    height: 10px;
+    line-height: 12px;
+    z-index: 5;
+    width: 100px;
+    margin:0 !important;
+    font-size:90%;
+}
+
+.callBack, .viewCar {
+    margin: 0px 5px 0px 0px !important;
+}
+
+
+.vehicleCTA li, .vehicleCTA li a {
+    list-style: none;
+    line-height: 16px;
+    display: inline-flex;
+        text-decoration: none;
+    color: #000;
+    width: 120px;
+}
+
+.vehicleCTA li a:hover {
+    color: #000;
+}
+
+
+.vehicleCTA li img {
+    width: 35px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+/* Pagination Styling */
+
+
+.pagination {
+    padding: 20px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.page {
+    display: inline-block;
+    padding: 7px 14px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: solid 1px #efefef;
+    background: #e9e9e9;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717171;
+    text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+    text-transform: uppercase;
+
+}
+
+.page:hover, .page.gradient:hover {
+    background: #fefefe;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#f0f0f0));
+    background: -moz-linear-gradient(0% 0% 270deg,#FEFEFE, #f0f0f0);
+}
+
+.page.active {
+    border: none;
+    background: #616161;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+    color: #f0f0f0;
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+}
+
+.page.gradient {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e9e9e9));
+    background: -moz-linear-gradient(0% 0% 270deg,#f8f8f8, #e9e9e9);
+}
+
+/* Paper Stack Effect */
+
+.stack_small {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background-color: white;
+  word-wrap: break-word;
+  box-shadow: 
+  0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+  0 0.5em 0 -0.25em #f2f2f2, 
+  0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 
+  0 1em 0 -0.5em #e5e5e5, 
+  0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+.stack_medium {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background-color: white;
+  word-wrap: break-word;
+box-shadow: 
+  0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 
+  0 0.5em 0 -0.25em #f2f2f2, 
+  0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 
+  0 1em 0 -0.5em #e5e5e5, 
+  0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1),
+  0 1em 0 -0.75em #e5e5e5, 
+  0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1),
+    0 1em 0 -1em #e5e5e5, 
+  0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+}
+
+
+
+.stack > :last-child {
+  margin-bottom: 0;
+}
+
+/* Find My Car Module */
+.findMyCar {
+    padding:10px;
+    margin-top: 10px;
+}
+
+.findMyCar select {
+    margin:0;
+}
+
+.findMyCar a {
+    width: 90%;
+}
+
+.AdvancedSearch a {
+    color:#000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Makes search tool stick to the top of page */
+#sticky-anchor {
+    position: absolute;
+    top:250px;
+}
+
+#sticky.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 15;
+}
+
+/* End sticky CSS */
+
+
+/* Side Bars */
+
+/* Latest from Our Blog */
+.blogItem {
+    margin-top:5px;
+}
+
+.blogItem img {
+    width: 100%;
+    height: 100%;
+}
+
+.blogDate  {
+    line-height: 11px;
+    text-transform: uppercase;
+}
+.blogAuthor  {
+    line-height: 10px;
+}
+
+/* Branch Locator */
+    .mapModule   img {
+        width: 100%;
+        height: 100%;
+}
+
+.branchList ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+.branchList ul li {
+    padding:5px;
+    height: 20px;
+}
+
+.branchList .even {
+    background: #2695cf;
+}
+
+/* Vehicle Details Styling */
+
+.details_slider {
+    margin-top: 15px;
+}
+.details_slider img {
+    width: 100%;
+}
+
+
+
+/* Footer */
+.footer {
+    background:#1e1e1e;
+    color:#fff;
+    width:100%;
+    margin-top:20px;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 10px;
+    width: 100%;
+}
+
+.footer a {
+    color:#fff;
+    text-decoration: none;   
+}
+
+.social li {
+    display: inline-flex;
+    line-height: 24px !important;
+}
+
+
+.social li a {
+display:inline-flex;
+    line-height: 20px;
+}
+
+.social li img {
+    margin-right:10px;
+    width: 26px;
+    height: 28px;
+}
+
+
+/* Car Compare Placeholders */
+.CarComparePlaceholder {
+    background: url(../images/compare_placeholder.jpg) no-repeat left center;
+    height: 140px;
+    background-size:contain;
+}
+
+.carCompareText {
+    display: block;
+    height: 140px;
+    font-weight: bold;
+    margin-top:25px;
+    padding:20px;
+}
+
+/* Promotional Banners */
+.promotionBanner img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Margins and Alignment */
+
+.center {
+    text-align: center !important;
+}
+
+.left {
+    text-align: left !important;
+    
+}
+
+.right {
+    text-align: right !important;
+}
+
+.noMargin {
+    margin: 0 !important;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.roundedBorder {
+    border-radius: 10px;
+}
+/* Text Styles */
+
+.striken {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.size50 {
+    font-size: 50%;
+        line-height: 20px;
+}
+
+.size55 {
+    font-size: 55%;
+        line-height: 20px;
+
+}
+
+.size60 {
+    font-size: 60%;
+}
+
+.size65 {
+    font-size: 65%;
+}
+
+.size70 {
+    font-size: 70%;
+}
+
+.size75 {
+    font-size: 75%;
+}
+
+.size80 {
+    font-size: 80%;
+    line-height: 20px;
+}
+
+.size85 {
+    font-size: 85%;
+    line-height: 20px;
+}
+
+.size90 {
+    font-size: 90%;
+    line-height: 20px;
+}
+
+.size95 {
+    font-size: 95%;
+    line-height: 20px;
+}
+
+.size105 {
+    font-size: 105%;
+    line-height: 25px;
+}
+
+.size110 {
+    font-size: 110%;
+    line-height: 25px;
+}
+
+.size110 {
+    font-size: 115%;
+    line-height: 25px;
+}
+
+.size120 {
+    font-size: 120%;
+    line-height: 25px;
+}
+
+.size125 {
+    font-size: 125%;
+    line-height: 25px;
+}
+
+.size130 {
+    font-size: 130%;
+    line-height: 25px;
+}
+
+.size135 {
+    font-size: 135%;
+    line-height: 25px;
+}
+
+.size140 {
+    font-size: 140%;
+    line-height: 25px;
+}
+
+.size145 {
+    font-size: 145%;
+    line-height: 25px;
+}
+
+.size150 {
+    font-size: 150%;
+    line-height: 25px;
+}
+/* Colors */
+
+.white {
+    color: #fff !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.red {
+    color: #EE2F24;
+}
+
+.redBG {
+    background: #EE2F24;
+}
+.blackBG {
+    background: #000;
+}
+
+.whiteBG {
+    background: #fff;
+}
+
+/* Buttons */
+.button {
+    font-style: none;
+    padding:5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 60%;
+    text-align: center;
+}
+
+/* Headings */
+
+.tagline {
+    text-align: center;
+}
+
+.tagline>span {
+    font-size: 20px;
+}
+
+.tagline span:lastitem {
+    font-size: 28px;
+}
+
+.underlined {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+/* Text Styles */
