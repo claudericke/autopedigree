@@ -8,7 +8,6 @@ body {
     background: #f0f4f7;
     overflow-x: hidden;
     margin: 0 auto;
-    height: 2000px !important;
     z-index: -3;
     height: 100%;
 }
@@ -510,7 +509,10 @@ box-shadow:
 .branchList ul {
     list-style: none;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
+
 
 .branchList ul li {
     padding:5px;
@@ -606,9 +608,15 @@ display:inline-flex;
 }
 
 
+/* Branch Listing Page */
+.findOnMap {
+    min-height: 495px;
+}
+
+
 /* Branch Details Page */
 .openingHours {
-    background: url(../image/clock.png) no-repeat bottom left #fff;
+    background: url(../images/clock.png) no-repeat bottom left #fff;
 }
 
 .callCenter {
@@ -698,6 +706,8 @@ display:inline-flex;
 
 .size60 {
     font-size: 60%;
+    line-height: 15px;
+
 }
 
 .size65 {
