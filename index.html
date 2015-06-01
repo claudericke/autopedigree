@@ -38,18 +38,25 @@
                 </div>
             </div>
 
-            <div class="container navContainer">
-                <div class="two columns logo"><img src="images/logo_white.png" alt="" />
+   <div class="container navContainer">
+                <div class="two columns logo"><a href="index.html"><img src="images/logo_color.png" alt="" /></a>
                 </div>
-                <div class="ten columns navigation">
-                    <nav>
-                        <div class="menu">
-                            <ul>
+                <div class="ten columns ">
+                         <a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Menu</a>
+                    <nav class="mainnav">
+                        <div>
+                            <ul class="menu">
                                 <li><a href="#">Home</a>
                                 </li>
                                 <li><a href="#">Promotions</a>
                                 </li>
                                 <li><a href="#">Specials</a>
+                                    <ul>
+                                        <li><a href="#">Great Deals</a>
+                                            <ul><li>Third Level Link</li><li>Third Level Link</li><li>Third Level Link</li><li>Third Level Link</li><li>Third Level Link</li><li>Third Level Link</li></ul>
+                                        </li>
+                                        <li><a href="#">Managers Choice</a></li>
+                                    </ul>
                                 </li>
                                 <li><a href="#">Branches</a>
                                 </li>
@@ -77,23 +84,32 @@
                             <div class="twelve columns search_body ">
                                 <div class="container">
                                     <div class="six columns noMargin makes ">
-                                        Makes
+                                         <select name="carMake" class="black whiteBG">
+                                            <option>Select Make</option>
+                                        </select>
                                     </div>
                                     <div class="six columns models">
-                                        Models
+                                     <select name="carModel" class="black whiteBG">
+                                        <option>Select Model</option>
+                                    </select>
                                     </div>
                                     <div class="six columns noMargin price">
-                                        Price
+                                       <select name="carPrice" class="black whiteBG">
+                                        <option>Select Price</option>
+                                        </select>
                                     </div>
                                     <div class="six columns">
-                                        Branch
+                                         <select name="carBranch" class="black whiteBG">
+                                            <option>Select Branch</option>
+                                        </select>
                                     </div>
-                                    <div class="six columns noMargin advancedSearch">
-                                        Advanced Search
-                                    </div>
-                                    <div class="six columns searchButton">
-                                        Search Button
-                                    </div>
+                                            <div class="five columns AdvancedSearch size80 bold ">
+                        <a href="#"><span class="white">ADVANCED SEARCH</span>
+                            <span class="entypo-down-open center" data-text="down-open"></span></a>
+                    </div>
+                    <div class="six columns Search">
+                        <a href="search.html" class="button blackBG">SEARCH</a>
+                    </div>
                                 </div>
                             </div>
                         </div>
@@ -472,13 +488,28 @@
                                 <div class="three columns">
                     <h3 class="white size140 bold">LEGAL</h3>
                         <ul>
-                            <li><a href="#">PrIvacy Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Usage</a></li>
                             <li><a href="#">Finance Guidelines</a></li>
                             <li><a href="#">Disclaimer</a></li>
                         </ul>
                 </div> 
-            </div>    
+            </div>
+            <!-- Start Copyright Section -->
+            <div class="twelve columns">
+                <hr />
+            </div>
+            <div class="bottom">
+                <div class="eight columns">
+                    <span>&copy; Auto Pedigree 2015</span>
+                </div>
+                <div class="four columns right">
+                    <span><img src="images/imperial.png" alt="" /></span>
+                </div>
+            </div>
+            <!-- End  Copyright Section -->
+            </div><!-- Close Footer Container -->
+        </div><!-- Close Sidebar -->
             </div>
         </div>
 

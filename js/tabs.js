@@ -9,7 +9,6 @@ jQuery(document).ready(function($){
 			var selectedTab = selectedItem.data('content'),
 				selectedContent = tabContentWrapper.find('li[data-content="'+selectedTab+'"]'),
 				slectedContentHeight = selectedContent.innerHeight();
-			
 			tabItems.removeClass('selected');
 			selectedItem.addClass('selected');
 			selectedContent.addClass('selected').siblings('li').removeClass('selected');

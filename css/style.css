@@ -17,7 +17,7 @@ body {
     position: absolute;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
+    height: 200%;
     background: none;
     z-index: 0;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .pages section {
-    top: 312px;
+    top: 372px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -334,7 +334,13 @@ h1.search_header {
     margin: 0px 5px 0px 0px !important;
 }
 
-
+.shopping-cart {
+    display: inline-block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
 .vehicleCTA li, .vehicleCTA li a {
     list-style: none;
     line-height: 16px;
@@ -458,15 +464,16 @@ box-shadow:
     text-align: center;
 }
 
-/* Makes search tool stick to the top of page */
+/* Makes search  stick to the top of page */
 #sticky-anchor {
     position: absolute;
-    top:250px;
+    top:200px;
 }
 
 #sticky.stick {
     position: fixed;
-    top: 0;
+    top: -10px;
+    left: 0;
     width: 100%;
     z-index: 15;
 }
@@ -534,11 +541,20 @@ box-shadow:
     padding: 10px;
     position: relative;
     bottom: 0;
+    height:auto;
+    min-height: 400px;
+    margin-top:400px;
+
+}
+
+.footer ul {
+    padding-left: 0;
+    margin-top:0;
 }
 
 .footer ul li {
     list-style: none;
-    line-height: 10px;
+    line-height: 20px;
     width: 100%;
 }
 
@@ -547,9 +563,12 @@ box-shadow:
     text-decoration: none;   
 }
 
+
+
 .social li {
     display: inline-flex;
     line-height: 24px !important;
+    text-align: left;
 }
 
 
@@ -561,7 +580,7 @@ display:inline-flex;
 .social li img {
     margin-right:10px;
     width: 26px;
-    height: 28px;
+    height: 27px;
 }
 
 
@@ -584,6 +603,34 @@ display:inline-flex;
 .promotionBanner img {
     width: 100%;
     margin-top: 10px;
+}
+
+
+/* Branch Details Page */
+.openingHours {
+    background: url(../image/clock.png) no-repeat bottom left #fff;
+}
+
+.callCenter {
+    margin-top:10px;
+    background: #000000;
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -o-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: -ms-linear-gradient(top, #45484d 0%, #000000 100%);
+    background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+}
+
+.branchMap {
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+}
+
+.branchMap img {
+    width: 100%;
 }
 
 
@@ -613,6 +660,10 @@ display:inline-flex;
 .roundedBorder {
     border-radius: 10px;
 }
+
+.fitImage img {
+    width: 100%;
+}
 /* Text Styles */
 
 .striken {
@@ -621,6 +672,9 @@ display:inline-flex;
 
 .bold {
     font-weight: bold;
+}
+.noBold {
+    font-weight: normal;
 }
 
 .uppercase {
@@ -688,7 +742,7 @@ display:inline-flex;
     line-height: 25px;
 }
 
-.size110 {
+.size115 {
     font-size: 115%;
     line-height: 25px;
 }
@@ -725,6 +779,56 @@ display:inline-flex;
 
 .size150 {
     font-size: 150%;
+    line-height: 25px;
+}
+
+.size155 {
+    font-size: 155%;
+    line-height: 25px;
+}
+
+.size160 {
+    font-size: 160%;
+    line-height: 25px;
+}
+
+.size165 {
+    font-size: 165%;
+    line-height: 25px;
+}
+
+.size170 {
+    font-size: 170%;
+    line-height: 25px;
+}
+
+.size175 {
+    font-size: 175%;
+    line-height: 25px;
+}
+
+.size180 {
+    font-size: 180%;
+    line-height: 25px;
+}
+
+.size185 {
+    font-size: 185%;
+    line-height: 25px;
+}
+
+.size190 {
+    font-size: 190%;
+    line-height: 25px;
+}
+
+.size195 {
+    font-size: 195%;
+    line-height: 25px;
+}
+
+.size200 {
+    font-size: 200%;
     line-height: 25px;
 }
 /* Colors */
