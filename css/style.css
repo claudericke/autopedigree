@@ -614,6 +614,94 @@ display:inline-flex;
 }
 
 
+/* Car Compare Page */
+
+.carCompareImg {
+    height: 140px !important;
+    background: cover;
+}
+
+a.button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carCompareImg:before {
+    display: inline-flex;
+    content: '';
+    background: url(../images/icons/vs.png) no-repeat center center;
+    position: relative;
+    top: 85px;
+    left:80px;
+    width: 140px;
+    height: 30px;
+    z-index: 10;
+}
+
+.carCompareImg:last-child:before  {
+    display: block;
+    content: '';
+    background: none;
+    position: relative;
+    width: 140px;
+    height: 30px;
+    z-index: 10;}
+
+.carCompareImg {
+    margin-top:-25px;
+}
+
+.carCompareImg:last-child {
+    margin-top:-18px;
+}
+
+.callBackButton {
+    display: block;
+    background: url(../images/icons/callback.png) no-repeat left center;
+    height: 25px;
+    line-height: 25px;
+    padding-left:25px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.compareShare img {
+    line-height: 17px;
+    display: block;
+    height: 30px;
+    float:left;
+    margin-right:5px;
+}
+
+.compareShare a {
+    text-decoration: none;
+    color: #000;
+}
+
+.removeCompare {
+    position: relative;
+    top:0;
+    left:0;
+    background:#1e1e1e;
+    padding:10px;
+    font-weight: bold;
+    color:#fff !important;
+    width: 10px;
+    height: 10px;
+    z-index: 5;
+}
+
+.removeCompare  a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
+    display: block;
+    line-height: 10px;
+}
+
+
 /* Branch Details Page */
 .openingHours {
     background: url(../images/clock.png) no-repeat bottom left #fff;
@@ -665,6 +753,20 @@ display:inline-flex;
     padding: 0 !important;
 }
 
+.padding5 {
+    padding:5px;
+}
+
+.padding10 {
+    padding:10px;
+}
+.padding15 {
+    padding:15px;
+}
+.padding20 {
+    padding:20px;
+}
+
 .roundedBorder {
     border-radius: 10px;
 }
@@ -672,6 +774,39 @@ display:inline-flex;
 .fitImage img {
     width: 100%;
 }
+
+.borderLeft {
+    border-left: 1px solid #000;
+    padding-left:5px;
+}
+
+.borderRight {
+    border-right: 1px solid #000;
+    padding-right:20px;
+}
+
+.borderTop {
+    border-top: 1px solid #000;
+    padding-top:5px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #000;
+    padding-bottom:5px;
+}
+
+.width50 {
+    width: 50% !important;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
 /* Text Styles */
 
 .striken {
@@ -695,7 +830,7 @@ display:inline-flex;
 
 .size50 {
     font-size: 50%;
-        line-height: 20px;
+        line-height: 15px;
 }
 
 .size55 {
