@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: #f0f4f7;
+    background: #fff;
     overflow-x: hidden;
     margin: 0 auto;
     z-index: -3;
@@ -214,6 +214,7 @@ h1.search_header {
     box-shadow: 1px 1px 3px #9f9f9f;
     padding: 10px;
     background: #fff;
+    border-radius: 5px;
 }
 /* Vehicle Listing Module */
 .vehicleItem:hover {
@@ -615,6 +616,10 @@ display:inline-flex;
 
 
 /* Car Compare Page */
+.carCompareSection {
+    background: #fff;
+}
+
 
 .carCompareImg {
     height: 140px !important;
@@ -701,6 +706,33 @@ a.button {
     line-height: 10px;
 }
 
+.carCompareDetails {
+   list-style: none;
+    margin-left:-37px !important;
+    font-size: 90%;
+    width: 100% !important;
+}
+
+.carCompareDetails li {
+    padding:2px;
+    display: block;
+    line-height: 15px;
+}
+
+
+.carCompareDetails li:nth-child(2n+1)
+    {
+        background: #cecece;
+}
+.carCompare1,.carCompare2, .carCompare3, .carCompare4 {
+    margin-top:3px;
+}
+
+
+.carCompareDetails td {
+    width: 13.3333333333%;
+    padding-left:20px;
+}
 
 /* Branch Details Page */
 .openingHours {
@@ -718,6 +750,7 @@ a.button {
     background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
 }
+
 
 .branchMap {
     width: 100%;
